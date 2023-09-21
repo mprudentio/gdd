@@ -2,10 +2,7 @@ import React,  { useState } from 'react'
 import {
     FaBars,
     FaTimes,
-    FaGithub,
-    FaLinkedin,
-    FaFacebook,
-    FaLinkedinIn} 
+    FaLinkedin,} 
 from 'react-icons/fa'
 import { Link } from 'react-scroll';
 import { HiOutlineMail } from 'react-icons/hi';
