@@ -27,11 +27,6 @@ const Work = () => {
                 Store Dashboard
               </span>
               <div className='pt-8 text-center'>
-                {/* <a href='https://super-cool-site-by-muprudentio-gmail-com-b8520.netlify.app/' target={"_blank"}>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a> */}
                 <a href='https://store-dashboard-beta-mprudentio.vercel.app/' target={"_blank"}>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
@@ -43,6 +38,9 @@ const Work = () => {
                   </button>
                 </a>
               </div>
+              <p className='text-xs'>You can use: </p>
+              <p className='text-xs'>email:test123@gmail.com </p>
+              <p className='text-xs'>  password:123456</p>
             </div>
           </div>
           <div
