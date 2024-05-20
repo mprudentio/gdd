@@ -2,11 +2,28 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import ElectricVehicle from './projects/ElectricVehicle';
+import Pizza from "./projects/Pizza"
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
+import ScrollToTop from './ScrollToTop';
+import HR from './projects/HR';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/electric-vehicle" element={<ElectricVehicle />} />
+        <Route path="/pizza" element={<Pizza />} />
+        <Route path='/HR' element={<HR/>}/>
+      </Routes>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

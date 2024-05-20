@@ -12,7 +12,7 @@ const Home = () => {
           Muhammad Prudentio 
         </h1>
         <p className='font-bold text-[#8892b0]'>
-          I'm an aspiring Front-End Developer, driven by the pursuit of excellence in web development.
+          I'm an aspiring Data Analyst, driven by the pursuit of excellence in data analysis
         </p>
         <div>
         <Link to='work' smooth={true} duration={500}>

@@ -10,31 +10,26 @@ const Skills = () => {
               <p className='py-4'>// These are the technologies I've worked with</p>
           </div>
           
-
-            <div className='grid grid-cols-2 sm:grid-cols-4 gap-4 w-full  text-center py-8' >
+            <div className='grid grid-cols-2 sm:grid-cols-3 gap-4 w-full  text-center py-8' >
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src="./Html.png" alt="HTML icon" />
-                    <p className='my-4'>HTML</p>
+                    <img className='w-20 mx-auto' src="./python.png" alt="python icon" />
+                    <p className='my-4'>Python</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src="./Css.png" alt="CSS icon" />
-                    <p className='my-4'>CSS</p>
+                    <img className='w-20 mx-auto' src="./sql.png" alt="sql icon" />
+                    <p className='my-4'>SQL</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src="./Javascript.png" alt="Javascript icon" />
-                    <p className='my-4'>JAVASCRIPT</p>
+                    <img className='w-20 mx-auto' src="./excel.png" alt="Excel icon" />
+                    <p className='my-4'>Excel</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src="./React.png" alt="React icon" />
-                    <p className='my-4'>REACT</p>
+                    <img className='w-20 h-20 mx-auto' src="./tableau.png" alt="Tableau icon" />
+                    <p className='my-4'>Tableau</p>
                 </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src="./Tailwind.png" alt="Tailwind icon" />
-                    <p className='my-4'>TAILWIND</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src="./ruby.png" alt="ruby icon" />
-                    <p className='my-4'>RUBY</p>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
+                    <img className='w-20 mx-auto' src="./powerbi.png" alt="Powerbi icon" />
+                    <p className='my-4'>Power BI</p>
                 </div>
             </div>
       </div>

@@ -1,8 +1,12 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
+
 
 const Work = () => {
+  const navigate = useNavigate()
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -14,103 +18,42 @@ const Work = () => {
         </div>
 
 {/* Container */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-4 gap-4'>
+        <div className='flex md:flex-row flex-col space-between gap-4'>
 
             {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url('./cyber-bg.png')` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div text-center'
+            <div onClick={() => navigate('/pizza')}
+            style={{ backgroundImage: `url('./dpizza1.png')` }}
+            className='shadow-lg shadow-[#040c16] cursor-pointer group container rounded-md flex justify-center items-center mx-auto content-div text-center'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Store Dashboard
+              <span className='text-2xl  text-center font-bold text-white tracking-wider'>
+                Pizza Sales
               </span>
-              <div className='pt-8 text-center'>
-                <a href='https://store-dashboard-beta-mprudentio.vercel.app/' target={"_blank"}>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://github.com/mprudentio/store-dashboard' target={"_blank"}>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-              <p className='text-xs'>You can use: </p>
-              <p className='text-xs'>email:test123@gmail.com </p>
-              <p className='text-xs'>  password:123456</p>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url('./library.png')` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div text-center'
+          <div onClick={()=>navigate('/electric-vehicle')}
+            style={{ backgroundImage: `url('./ev.png')` }}
+            className='cursor-pointer shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div text-center'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Bookshelf
+            <div className='opacity-0 group-hover:opacity-100' >
+              <span className='text-2xl text-center font-bold text-white tracking-wider'>
+                Electric Vehicle
               </span>
-              <div className='pt-8 text-center'>
-                <a href='https://amazing-crumble-f8d7e2.netlify.app/' target={"_blank"}>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://github.com/mprudentio/bookshelf' target={"_blank"} >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
             </div>
           </div>
+
             {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url('./weather.png')` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div text-center'
+          <div onClick={() => navigate('/HR')}
+            style={{ backgroundImage: `url('./hr2.png')` }}
+            className='shadow-lg cursor-pointer shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div text-center'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Weather
+              <span className='text-2xl  text-center font-bold text-white tracking-wider'>
+                HR Analytics
               </span>
-              <div className='pt-8 text-center'>
-                <a href='https://aquamarine-nasturtium-312cfc.netlify.app/' target={"_blank"}>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://github.com/mprudentio/weather-app' target={"_blank"}>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url('./ecommerce.png')`}}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div text-center'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                E-Commerce
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://ecommerce-f6gj.vercel.app/' target={"_blank"}>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://gitlab.com/mprudentio/ecommerce' target={"_blank"}>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
             </div>
           </div>
           </div>
