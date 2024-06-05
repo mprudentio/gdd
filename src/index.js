@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import ElectricVehicle from './projects/ElectricVehicle';
+import MentalHealth from './projects/MentalHealth';
 import Pizza from "./projects/Pizza"
 import {
   BrowserRouter as Router,
@@ -12,6 +13,7 @@ import {
 import reportWebVitals from './reportWebVitals';
 import ScrollToTop from './ScrollToTop';
 import HR from './projects/HR';
+import ABTest from './projects/ABTest';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,6 +24,8 @@ ReactDOM.render(
         <Route path="/electric-vehicle" element={<ElectricVehicle />} />
         <Route path="/pizza" element={<Pizza />} />
         <Route path='/HR' element={<HR/>}/>
+        <Route path='/mental-health' element={<MentalHealth />} />
+        <Route path='AB-Testing' element={<ABTest/>}/>
       </Routes>
     </Router>
   </React.StrictMode>,

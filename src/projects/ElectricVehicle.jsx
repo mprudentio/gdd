@@ -43,6 +43,25 @@ const ElectricVehicle = () => {
                     <li><strong>A Tale of Two Coasts: </strong> The EV revolution isn't uniform across the US.  Our analysis exposes a <strong>glaring disparity</strong>, with Washington boasting significantly higher EV adoption compared to the rest of the country.</li>
                 </ol>
             </div>
+            <div className='text-white mt-5'>
+                <p className='text-lg font-semibold'>Recommendations </p>
+                <div>
+                    <p className='font-semibold'>For established car manufacturers not currently in the EV market</p>
+                    <ol className='list-decimal ml-5'>
+                        <li><strong>Develop a Competitive EV Model Lineup:</strong> Prioritize the development and launch of compelling electric vehicles that can compete with established players like Tesla. Focus on offering a range of options to cater to various consumer needs and budgets</li>
+                        <li><strong>Strategic Partnerships: </strong> Forge partnerships with battery technology companies or existing EV manufacturers to accelerate your entry into the market and leverage their expertise.</li>
+                        <li><strong>Invest in Charging Infrastructure: </strong> Collaborate with government or private entities to invest in building a robust charging infrastructure across the country. This will alleviate range anxiety for potential EV buyers and incentivize them to choose your brand.</li>
+                    </ol>
+                </div>
+                <div className=' mt-5'>
+                    <p className='font-semibold'>For established car manufacturers with a limited EV presence</p>
+                    <ol className='list-decimal ml-5'>
+                        <li><strong>Expand EV Portfolio:</strong> The skyrocketing EV market presents a significant opportunity. Consider broadening your electric vehicle offerings beyond current models to cater to a wider range of consumer preferences and price points.</li>
+                        <li><strong>Target Model Y Competitors: </strong>The Model Y's dominance highlights a gap in the market.  Invest in research and development to create compelling electric vehicle alternatives that compete directly with the Model Y in terms of features, performance, or price.</li>
+                        <li><strong>Focus on Regional Expansion: </strong>The significant EV adoption disparity in Washington presents a strategic opportunity.  Allocate resources towards marketing and dealership expansion efforts in regions with lower EV penetration to drive national market share growth.</li>
+                    </ol>
+                </div>
+            </div>
         </div>
     </div>
   )

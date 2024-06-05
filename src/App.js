@@ -6,7 +6,6 @@ import Skills from './skills'
 import Work from './work'
 import Contact from './contact';
 import {Helmet} from "react-helmet";
-import Footer from './footer';
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
       <Skills />
       <Work />
       <Contact />
-      <Footer />
     </div>
   );
 }
