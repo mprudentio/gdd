@@ -14,7 +14,7 @@ const Work = () => {
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
             Work
           </p>
-          <p className='pt-6'>// Check out some of my recent work</p>
+          <p className='pt-6'>// Check out some of my recent works </p>
         </div>
 
 {/* Container */}
@@ -27,8 +27,22 @@ const Work = () => {
               {/* Hover Effects */}
               <div className='opacity-0 group-hover:opacity-100' >
                 <span className='text-2xl text-center font-bold text-white tracking-wider'>
-                  Mental Health
+                  Mental Health Dashboard
                 </span>
+                <p>Excel</p>
+              </div>
+            </div>
+             {/* Grid Item */}
+             <div onClick={()=>navigate('/SEM')}
+              style={{ backgroundImage: `url('./sem-thumb.png')` }}
+              className='cursor-pointer shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div text-center'
+            >
+              {/* Hover Effects */}
+              <div className='opacity-0 group-hover:opacity-100' >
+                <span className='text-2xl text-center font-bold text-white tracking-wider'>
+                  Search Engine Marketing Dashboard
+                </span>
+                <p>Power BI</p>
               </div>
             </div>
             {/* Grid Item */}
@@ -39,8 +53,9 @@ const Work = () => {
               {/* Hover Effects */}
               <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl  text-center font-bold text-white tracking-wider'>
-                  Pizza Sales
+                  Pizza Sales Dashboard
                 </span>
+                <p>Power BI</p>
               </div>
             </div>
             {/* Grid Item */}
@@ -51,8 +66,9 @@ const Work = () => {
               {/* Hover Effects */}
               <div className='opacity-0 group-hover:opacity-100' >
                 <span className='text-2xl text-center font-bold text-white tracking-wider'>
-                  Electric Vehicle
+                  Electric Vehicle Dashboard
                 </span>
+                <p>Tableau</p>
               </div>
             </div>
             {/* Grid Item */}
@@ -63,8 +79,9 @@ const Work = () => {
               {/* Hover Effects */}
               <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl  text-center font-bold text-white tracking-wider'>
-                  HR Analytics
+                  HR Analytics Dashboard
                 </span>
+                <p>Power BI</p>
               </div>
             </div>
             {/* Grid Item */}
@@ -77,6 +94,7 @@ const Work = () => {
                 <span className='text-2xl  text-center font-bold text-white tracking-wider'>
                   A/B Testing
                 </span>
+                <p>Python</p>
               </div>
             </div>
           </div>
