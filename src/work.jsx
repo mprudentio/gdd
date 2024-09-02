@@ -33,18 +33,31 @@ const Work = () => {
               </div>
             </div>
              {/* Grid Item */}
-             {/* <div onClick={()=>navigate('/SEM')}
+             <div onClick={()=>navigate('/SEM')}
               style={{ backgroundImage: `url('./sem-thumb.png')` }}
               className='cursor-pointer shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div text-center'
-            > */}
+            >
               {/* Hover Effects */}
-              {/* <div className='opacity-0 group-hover:opacity-100' >
+              <div className='opacity-0 group-hover:opacity-100' >
                 <span className='text-2xl text-center font-bold text-white tracking-wider'>
                   Search Engine Marketing Dashboard
                 </span>
                 <p>Power BI</p>
               </div>
-            </div> */}
+            </div>
+             {/* Grid Item */}
+             <div onClick={()=>navigate('/Inventory')}
+              style={{ backgroundImage: `url('./Inventory-hero.png')` }}
+              className='cursor-pointer shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div text-center'
+            >
+              {/* Hover Effects */}
+              <div className='opacity-0 group-hover:opacity-100' >
+                <span className='text-2xl text-center font-bold text-white tracking-wider'>
+                  Supply Chain Inventory Management Dashboard
+                </span>
+                <p>Looker Studio</p>
+              </div>
+            </div>
             {/* Grid Item */}
             <div onClick={() => navigate('/pizza')}
               style={{ backgroundImage: `url('./dpizza1.png')` }}
