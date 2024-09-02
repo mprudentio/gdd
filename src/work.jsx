@@ -47,7 +47,7 @@ const Work = () => {
             </div>
              {/* Grid Item */}
              <div onClick={()=>navigate('/Inventory')}
-              style={{ backgroundImage: `url('./Inventory-hero.png')` }}
+              style={{ backgroundImage: `url('./inventory-hero.png')` }}
               className='cursor-pointer shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div text-center'
             >
               {/* Hover Effects */}
